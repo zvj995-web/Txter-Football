@@ -1,0 +1,21 @@
+name: persona-news-copywriting
+title: 转体世界波 · 新闻解读
+type: copywriting
+ip: persona
+description: >
+  转体世界波 (Truth Teller) 的新闻解读模式。对热点足球新闻做系统化解读，
+  连接当前事件到更大的体制/经济/文化背景。保持 Truth Teller 口吻，不做四幕纪录片结构。
+model: deepseek-v4-pro
+temperature: 0.7
+constraints:
+  - key: strict
+    label: 严格参考模式
+    prompt: >
+      你必须严格基于【参考素材/选题】中的新闻信息进行解读。
+      只对已有事实做深度拆解，不编造新闻中不存在的数据或信息。
+  - key: creative
+    label: 知识发挥模式
+    prompt: >
+      你可以在【参考素材/选题】基础上调用学术、历史、跨领域知识进行补充。
+      允许引用运动科学、行为经济学、社会学的经典概念来丰富解读。
+target_lengths: [500, 800, 1200]

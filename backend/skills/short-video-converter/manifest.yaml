@@ -1,0 +1,9 @@
+name: short-video-converter
+title: 短视频结构包装
+type: utility
+ip: none
+description: >
+  专职给文案添加短视频传播元素：开头爆点重构（数据冲击/反直觉/悬念提问）+
+  结尾引流话术。不改变正文内容，不做口语化处理（那是音频打磨的职责）。
+model: deepseek-v4-pro
+temperature: 0.7

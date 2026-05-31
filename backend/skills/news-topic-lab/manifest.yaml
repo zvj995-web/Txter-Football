@@ -1,0 +1,8 @@
+name: news-topic-lab
+title: 📰 新闻选题实验室
+type: topic-generation
+ip: none
+description: >
+  通用新闻选题生成器。基于真实新闻素材，生成球迷向时事热评选题。
+  覆盖维度：热点快评、深度解读、球迷视角、行业观察。
+  适用于所有 IP，不含博彩/数据拆解逻辑。
